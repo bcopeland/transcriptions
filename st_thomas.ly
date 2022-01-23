@@ -100,9 +100,9 @@ theNotes = \relative c' {
     f e c g b c r4 |
     r4. bes'2  a8 |
     g8 c,4 r8 r2 |
-    r4 \tuplet 3/2 {e8 f g} fes4 g | \break
+    r4 \tuplet 3/2 {e8 f g} fis4 g | \break
 
-    r2 fes4. g8 |
+    r2 fis4. g8 |
     r2 r8 c, g'4 |
     a2 g4 f8 e ~ |
     e r8 r2. | \break
@@ -159,11 +159,6 @@ theNotes = \relative c' {
 
     f g4. r2 | r1 | r1 | r1 |
 
-%    r1 | r1 | r1 | r1 |
-%    r1 | r1 | r1 | r1 | \break
-
-%    r1 | r1 | r1 | r1 |
-%    r1 | r1 | r1 | r1 |
 }
 
 theChords = \chordmode {
