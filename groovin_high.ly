@@ -57,8 +57,7 @@ realBookTitle = \markup {
 theNotes = \relative c' {
   \set Staff.midiInstrument = "flute"
   \key ees \major
-  \repeat volta 2 {
-      bes'8 g r2. |
+          bes'8 g r2. |
           bes8 g r2. |
           r8 e a c b a aes e |
           g f fis d' ~ d4 bes16 c bes a | \break
@@ -71,40 +70,47 @@ theNotes = \relative c' {
           a8 f r2. |
           a8 f r2. |
           r8 c f aes g f e c |
-  }
-  \alternative {
-     {
           ees8 cis d bes' ~ bes4 aes8 fis | \break
+
           g bes d f ~ f4 d8 bes |
           e cis r2 r8 e, |
           f a c ees ~ ees4 c8 a |
           d b r2 bes16 c bes a | \break
-     }
-     {
-          ees8 cis d bes' ~ bes4 aes8 g |
+
+
+          bes8 g r2. |
+          bes8 g r2. |
+          r8 e a c b a aes e |
+          g f fis d' ~ d4 bes16 c bes a | \break
+
+          bes8 g r2. |
+          bes8 g r2. |
+          r8 d' bes g fis bes d f |
+          \tuplet 3/2 { cis8 d dis } e8 c ~ c4 bes8 g | \break
+
+          a8 f r2. |
+          a8 f r2. |
+          r8 c f aes g aes c e |
+          ees8 c d bes ~ bes4 aes8 g | \break
+
           f4 f8 g aes g f4 |
-          aes aes8 bes b bes aes ees' ~ |
-          ees1 |
-          d |
-     }
-  }
+          aes aes8 bes b bes aes4 |
+          ees'2 ees2 |
+          ces2 ces2 | \break
 }
 
 theChords = \chordmode {
     \set chordChanges = ##t
-    \repeat volta 2 {
-        ees1:maj7 | ees:maj7 | a:m7 | d:7 |
-        ees1:maj7 | ees:maj7 | g:m7 | c:7 |
-        f:7       | f:7      | f:m7 |
-    }
-    \alternative {
-        {
-            bes:7 |  g:m7      | fis:m7   | f:m7  | bes:7 |
-        }
-        {
-            bes:7 | f:m7       | des:m7   | ees:6 | f2:m7 bes:7 |
-        }
-    }
+    ees1:maj7 | ees:maj7 | a:m7 | d:7 |
+    ees1:maj7 | ees:maj7 | g:m7 | c:7 |
+    f:7       | f:7      | f:m7 |
+    bes:7 |  g:m7      | fis:m7   | f:m7  | bes:7 |
+
+
+    ees1:maj7 | ees:maj7 | a:m7 | d:7 |
+    ees1:maj7 | ees:maj7 | g:m7 | c:7 |
+    f:7       | f:7      | f:m7 |
+    bes:7 | f:m7       | des:m7   | ees:6 | f2:m7 bes:7 |
 }
 
 \score {
