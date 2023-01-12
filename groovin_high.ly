@@ -103,15 +103,20 @@ theNotes = \relative c' {
           fis ~ fis4 cis8 b ~ b4 |
           bes4. bes' r8 g8 |
           f4 ees8 f g bes4 c8 ~ |
-          c4 \tuplet 3/2 { b8 c b } a g fis e |
+          c4 \tuplet 3/2 { b8 c b } a g fis e | \break
 
-          ees8 r4 cis2 b8 | bes8 a aes fis g bes4 d8 |
-          f8 d ees f \tuplet 3/2 { fis4 b c } | cis2 r4 cis8 cis ~ |
+          ees8 r4 cis2 b8 |
+          bes8 a aes fis g bes4 d8 |
+          f8 d ees f \tuplet 3/2 { fis4 bes c } |
+          cis2 r4 cis8 cis ~ | \break
+
           cis4 g8 c4 r8 c8 bes |
           a g f e ees d c bes |
-
           a8 c ees4 fis8 f ees4 |
-          r1 | r1 | r1 | r1 | r1 | r1 |
+          f4. c' aes8 ees | \break
+
+          g8 f r2. |
+          r1 | r1 | r1 | r1 |
 
 }
 
