@@ -98,25 +98,41 @@ theNotes = \relative c' {
           ees'2 ees2 |
           ces2 ces2 | \break
 
-          r4 \tuplet 3/2 { b8 cis b } bes8 a aes ees g | \break
+          r4 \tuplet 3/2 { b8 cis b } bes8 a aes ees |
+          g fis ~ fis4 cis8 b ~ b4 | \break
 
-          fis ~ fis4 cis8 b ~ b4 |
           bes4. bes' r8 g8 |
           f4 ees8 f g bes4 c8 ~ |
-          c4 \tuplet 3/2 { b8 c b } a g fis e | \break
+          c4 \tuplet 3/2 { b8 c b } a g fis e |
+          ees8 r4 cis2 b8 | \break
 
-          ees8 r4 cis2 b8 |
           bes8 a aes fis g bes4 d8 |
           f8 d ees f \tuplet 3/2 { fis4 bes c } |
-          cis2 r4 cis8 cis ~ | \break
+          cis2 r4 cis8 cis ~ |
+          cis4 g8 c4 r8 c8 bes | \break
 
-          cis4 g8 c4 r8 c8 bes |
           a g f e ees d c bes |
           a8 c ees4 fis8 f ees4 |
-          f4. c' aes8 ees | \break
+          f4. c' aes8 ees | 
+          g8 f r2. | \break
 
-          g8 f r2. |
-          r1 | r1 | r1 | r1 |
+          bes8 c ees g ~ g4 r8 f8 |
+          ees8 g, bes cis ~ cis4 g8 c ~ |
+          c4 bes8 a aes g f ees ~ |
+          ees4 b r4 bes'8 aes | \break
+
+          g8 bes4., f'8 ees4. |
+          c'4. bes8 g f ees a ~ |
+          a4 \tuplet 3/2 { g8 a ees } \tuplet 3/2 { fis r8 bes, } \tuplet 3/2 { a c d } | 
+          ees4 f8 d4. r8 c8 | \break
+
+          bes8 aes g d' f d ees f |
+          fis g c b bes ~ bes4 r8 |
+          r4 cis8 cis ~ cis4 g8 c ~ |
+          c2 d2 | \break
+
+          r1 | r1 | r1 | r1 | \break
+          r1 | r1 | r1 | r1 | \break
 
 }
 
@@ -139,6 +155,11 @@ theChords = \chordmode {
     ees1:maj7 | ees:maj7 | g:m7 | c:7 |
     f:7       | f:7      | f:m7 |
     bes:7 |  g:m7      | fis:m7   | f:m7  | bes:7 |
+
+    ees1:maj7 | ees:maj7 | a:m7 | d:7 |
+    ees1:maj7 | ees:maj7 | g:m7 | c:7 |
+    f:7       | f:7      | f:m7 |
+    bes:7 | f:m7       | des:m7   | ees:6 | f2:m7 bes:7 |
 }
 
 \score {

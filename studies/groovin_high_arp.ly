@@ -10,14 +10,14 @@ exercise = \relative c {
     ees8\6 g\5 bes\5 d\4 ees\4 g\3 bes\2 d\1 |
     ees8\1 d\1 bes\2 g\3 ees\4 d\4 bes\5 g\5 |
 
-    e\6 g\5 a\5 c\4 e\4 g\3 a\3 c\2 |
+    e\6 g\5 a\5 c\4 e\3 g\3 a\2 c\2 |
     d\1 c\2 a\2 fis\3 d\4 c\4 a\5 fis\6 |
 
     ees8\6 g\5 bes\5 d\4 ees\4 g\3 bes\2 d\1 |
     ees8\1 d\1 bes\2 g\3 ees\4 d\4 bes\5 g\5 |
 
-    bes8\5 d\4 f\4 g\3 bes\3 d\2 f\1 g\1 |
-    e\1 c\2 bes\3 g\3 e\4 c\5 bes\5 g\6 |
+    bes8\5 d\4 f\3 g\3 bes\2 d\1 f\1 d\1 |
+    e\1 c\2 bes\2 g\3 e\4 c\4 bes\5 g\5 |
 
     f\6 a\5 c\4 ees\4 f\3 a\2 c\2 ees\1 |
     f\1 ees\1 c\2 a\2 f\3 ees\4 c\4 a\5 |
@@ -34,7 +34,7 @@ exercise = \relative c {
     ees8\6 g\5 bes\5 d\4 ees\4 g\3 bes\2 d\1 |
     ees8\1 d\1 bes\2 g\3 ees\4 d\4 bes\5 g\5 |
 
-    e\6 g\5 a\5 c\4 e\4 g\3 a\3 c\2 |
+    e\6 g\5 a\5 c\4 e\3 g\3 a\2 c\2 |
     d\1 c\2 a\2 fis\3 d\4 c\4 a\5 fis\6 |
 
     ees8\6 g\5 bes\5 d\4 ees\4 g\3 bes\2 d\1 |
