@@ -96,8 +96,9 @@ theNotes = \relative c' {
           f4 f8 g aes g f4 |
           aes aes8 bes b bes aes4 |
           ees'2 ees2 |
-          ces2 ces2 | \break
+          cis2 cis2 | \break
 
+          % Ernie Henry (?) sax solo
           r4 \tuplet 3/2 { b8 cis b } bes8 a aes ees |
           g fis ~ fis4 cis8 b ~ b4 | \break
 
@@ -121,18 +122,25 @@ theNotes = \relative c' {
           c4 bes8 a aes g f ees ~ |
           ees4 b r4 bes'8 aes | \break
 
-          g8 bes4., f'8 ees4. |
+          g8 bes,4. f'8 ees4. |
           c'4. bes8 g f ees a ~ |
-          a4 \tuplet 3/2 { g8 a ees } \tuplet 3/2 { fis r8 bes, } \tuplet 3/2 { a c d } | 
+          a4 \tuplet 3/2 { g8 a ees } \tuplet 3/2 { fis r8 a, } \tuplet 3/2 { bes c d } | 
           ees4 f8 d4. r8 c8 | \break
 
           bes8 aes g d' f d ees f |
           fis g c b bes ~ bes4 r8 |
           r4 cis8 cis ~ cis4 g8 c ~ |
-          c2 d2 | \break
+          c2 d4 ~ \tuplet 3/2 {d8 cis c } | \break
 
-          r1 | r1 | r1 | r1 | \break
-          r1 | r1 | r1 | r1 | \break
+          b8 g ees4 \tuplet 3/2 { d'8 cis c } b g |
+          ees4 cis'2 ~ \tuplet 3/2 { cis8 cis8 c } |
+          bes8 a aes ees g f e g |
+          f e aes8 c ees ees r4  | \break
+
+          r4. ees2 bes8 |
+          cis bes8  ~ bes4 aes8 fis8 ~ fis4 |
+          aes8 fis8 ~ fis4 ees8 cis8 ~ cis4 |
+          ees8 cis8 ~ cis4 bes8 aes8 ~ aes4 | \break
 
 }
 
@@ -147,7 +155,7 @@ theChords = \chordmode {
     ees1:maj7 | ees:maj7 | a:m7 | d:7 |
     ees1:maj7 | ees:maj7 | g:m7 | c:7 |
     f:7       | f:7      | f:m7 |
-    bes:7 | f:m7       | des:m7   | ees:6 | f2:m7 bes:7 |
+    bes:7 | f:m7       | des:7   | ees:6 | f2:m7 bes:7 |
 
     r1 | r1 | \break
 
@@ -159,7 +167,7 @@ theChords = \chordmode {
     ees1:maj7 | ees:maj7 | a:m7 | d:7 |
     ees1:maj7 | ees:maj7 | g:m7 | c:7 |
     f:7       | f:7      | f:m7 |
-    bes:7 | f:m7       | des:m7   | ees:6 | f2:m7 bes:7 |
+    bes:7 | f:m7       | des:7   | ees:6 | f2:m7 bes:7 |
 }
 
 \score {
