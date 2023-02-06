@@ -70,28 +70,38 @@ theNotes = \relative c' {
           bes8 bes8 \tuplet 3/2 { aes16 bes aes } f8 bes8 aes r4 |
           r8 c \tuplet 3/2 { bes16 c bes } aes8 fis a d, b'8 ~ |
           b4 e8 a, r4 r8 e'16 d |
-          c8 f,8 g e r8 c'4. | \break
+          c8 f,8 g e r8 c'8 ~ c4 | \break
 
           a4 r8 f8 \tuplet 3/2 {a bes a} g a |
-          f g ees4 r8 cis4 g'8 ~ |
-          g8 f4 r8 r4 r8 a |
+          \tuplet 3/2 {f8 g ees8} r4 r8 cis4 g'8 ~ |
+          g8 f4 r4. r8 a8 |
           g bes \tuplet 3/2 { a16 bes a } g8 f8 ees f8 f8 ~ | \break
 
           f8 aes bes f aes bes r4 |
           r8 e, g bes \tuplet 3/2 { a16 bes a } fis8 r4|
           g8 bes \tuplet 3/2 { a16 bes a } g8 c4 a8 f ~ |
-          f4 r4 r8 c'4. | \break
+          f4 r4 r8 d'8 ~ d4 | \break
 
-          a4 r2. |
+          c4 r8 \tuplet 3/2 {g16 ees c } b'8 g r8 g |
+          \tuplet 3/2 { a b a } g ees gis fis r4 |
+          a8 g a g ~ g4 . g8 |
+          r2. r8 aes8 | \break
 
+          \tuplet 3/2 { des, ges bes } \tuplet 3/2 { c bes ges ~ } ges8 aes f e |
+          ees8 aes aes4 aes8 aes r8 ges |
+          \tuplet 3/2 { f8 aes c } ees c des bes r4 |
+          r8 g des f aes f des c | \break
 
-          r1 | r1 |
-          r1 | r1 | r1 | r1 |
-          r1 | r1 | r1 | r1 |
-          r1 | r1 | r1 | r1 |
-          r1 | r1 | r1 | r1 |
-          r1 | r1 | r1 | r1 |
-          r1 | r1 | r1 | r1 |
+          r8 c' ~ c4 bes8 a \tuplet 3/2 { e f fis } |
+          g8 d'8 a16 bes a g a4 cis,8 g'8 ~ |
+          g8 f4 r2 a8 |
+          g bes \tuplet 3/2 { a16 bes a } g8 r4 f8 bes8 ~ | \break
+
+          bes8 bes8 \tuplet 3/2 { aes16 bes aes } f8 bes8 aes r4 |
+          r8 c \tuplet 3/2 { bes16 c bes } aes8 a4 d,8 f ~ |
+          f8 d8 f g r8 f r8 f |
+          r8 f r2. | \break
+
 }
 
 theChords = \chordmode {
@@ -106,6 +116,11 @@ theChords = \chordmode {
     f1:maj7 | e:dim7 | d:m7 | c2:m7 f:7 |
     bes1:7 | a2:m7 d:7 | g1:maj7 | g2:m7 c:7 |
 
+    f1:maj7 | e:dim7 | d:m7 | c2:m7 f:7 |
+    bes1:7 | a2:m7 d:7 | g1:maj7 | g2:m7 c:7 |
+
+    f1:maj7 | e:dim7 | d:m7 | c2:m7 f:7 |
+    bes1:7 | a2:m7 d:7 | g1:maj7 | g2:m7 c:7 |
 }
 
 \score {
