@@ -60,10 +60,10 @@ theNotes = \relative c' {
           r2 r8 c8 d e |
           g f e f g ais cis f8 ~ f4 r4 cis8 ais g gis |
           a8 c, d g f c r8 cis |
-          d cis d f4 g8 r8 f8 | \break
+          d cis d f4 g8 r8 c,8 | \break
 
-          a8 c4 a8 bes a8 \tuplet 3/2 { e f fis } |
-          g8 d'8 a16 bes a g a4 cis,8 g'8 ~
+          a'8 c4 a8 bes a8 \tuplet 3/2 { e f fis } |
+          g8 d'8 \tuplet 3/2 {a16 bes a} g8 a4 cis,8 g'8 ~ |
           g8 f4 r2 a8 |
           g bes \tuplet 3/2 { a16 bes a } g8 r4 f8 bes8 ~ | \break
 
@@ -93,7 +93,7 @@ theNotes = \relative c' {
           r8 g des f aes f des c | \break
 
           r8 c' ~ c4 bes8 a \tuplet 3/2 { e f fis } |
-          g8 d'8 a16 bes a g a4 cis,8 g'8 ~ |
+          g8 d'8 \tuplet 3/2 {a16 bes a} g8 a4 cis,8 g'8 ~ |
           g8 f4 r2 a8 |
           g bes \tuplet 3/2 { a16 bes a } g8 r4 f8 bes8 ~ | \break
 
@@ -108,18 +108,18 @@ theChords = \chordmode {
     \set chordChanges = ##t
 
     f1:maj7 |
-    f1:maj7 | bes1:m7 | a2:7 aes2:7 | g2:7 g4:m7 c:7 |
+    f1:maj7 | bes1:m7 | a2:m7 aes2:m7 | g2:m7 c2:7 |
 
-    f1:maj7 | e2:m7.5- a2:m7 | d2:m7 g2:7 | c2:m7 f:7 |
+    f1:maj7 | e2:m7.5- a2:7 | d2:m7 g2:7 | c2:m7 f:7 |
     bes1:7 | a2:m7 d:7 | g1:7 | c:7 |
 
-    f1:maj7 | e2:m7.5- a2:m7 | d2:m7 g2:7 | c2:m7 f:7 |
+    f1:maj7 | e2:m7.5- a2:7 | d2:m7 g2:7 | c2:m7 f:7 |
     bes1:7 | a2:m7 d:7 | g2:m7 c:7 | f1:maj7 |
 
     c1:m7 | f:7 | bes:maj7 | bes:maj7 |
     ees:m7 | aes:7 | des:maj7 | g2:min7 c:7 |
 
-    f1:maj7 | e2:m7.5- a2:m7 | d2:m7 g2:7 | c2:m7 f:7 |
+    f1:maj7 | e2:m7.5- a2:7 | d2:m7 g2:7 | c2:m7 f:7 |
     bes1:7 | a2:m7 d:7 | g2:m7 c:7 | f1:maj7 |
 }
 
