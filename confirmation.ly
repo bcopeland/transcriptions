@@ -100,7 +100,9 @@ theNotes = \relative c' {
           bes8 bes8 \tuplet 3/2 { aes16 bes aes } f8 bes8 aes r4 |
           r8 c \tuplet 3/2 { bes16 c bes } aes8 a4 d,8 f ~ |
           f8 d8 f a ~ a f ~ f4 |
-          f4 r4 c4 e8 g | \break
+          f4 r4 b,4 e8 g | \break
+
+% solo
 
           f8 ees d4 c8 bes a a' |
           bes4 e,8 d des bes' g aes |
@@ -110,11 +112,11 @@ theNotes = \relative c' {
           bes8 \tuplet 3/2 { c16 bes aes ~ } aes8 f g8 f r4 |
           r8 a16 g fis8 r8 c ees c des |
           d c \tuplet 3/2 { b d f } a f d bes |
-          f'4 g8 aes4 \tuplet 3/2 { c,16 b bes } r8 g'8 ~ | \break
+          f'4 g8 aes4 \tuplet 3/2 { e16 d c } r8 g'8 ~ | \break
 
           \tuplet 3/2 { g8 e f } \tuplet 3/2 { d e c ~ } c4 r4 |
-          r8 e16 f \tuplet 3/2 { g8 f e } \tuplet 3/2 { d b d } \tuplet 3/2 { b c g'16 a } |
-          \tuplet 3/2 { bes8 a g } \tuplet 3/2 { f d f } d8 ees f16 g a bes |
+          r8 e16 f \tuplet 3/2 { g8 f e } \tuplet 3/2 { d b d } \tuplet 3/2 { b cis g'16 a } |
+          bes16 a g f e d cis d e cis d e f16 g a bes |
           c16 bes a g f e ees8 r2 | \break
 
           r4. d8 ~ \tuplet 3/2 { d8 f a } c a |
@@ -128,17 +130,17 @@ theNotes = \relative c' {
           d8 f ~ f2 r4 | \break
 
           r4 r8 c16 ees des8 c bes ges |
-          ees8 c des bes c f r4 |
+          ees8 bes des bes c f r4 |
           \tuplet 3/2 { aes16 bes aes } f8 c aes bes4 r4 |
           r8 g' ~ \tuplet 3/2 { g bes d } f4 e8 c | \break
 
           r4 r8 bes a f d c |
-          \tuplet 3/2 { fis gis fis } e d cis bes' g aes |
-          a cis, d ees r2 |
+          \tuplet 3/2 { fis g fis } e d cis bes' g aes |
+          a c, d ees r2 |
           r4 r8 f'8 ~ f4 aes,8 f | \break
 
           g f des bes c bes a g |
-          fis a c ees d bes g a | 
+          fis a c ees d bes g a |
           c a f' g \tuplet 3/2 { a bes b } c bes |
           a4 r8 c, e g ~ \tuplet 3/2 { g c, e } |
           f c4 r8 r2 |
@@ -163,7 +165,7 @@ theChords = \chordmode {
     f1:maj7 | e2:m7.5- a2:7 | d2:m7 g2:7 | c2:m7 f:7 |
     bes1:7 | a2:m7 d:7 | g2:m7 c:7 | f1:maj7 |
 
-%
+% solo
 
     f1:maj7 | e2:m7.5- a2:7 | d2:m7 g2:7 | c2:m7 f:7 |
     bes1:7 | a2:m7 d:7 | g1:7 | c:7 |
