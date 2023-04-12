@@ -1,10 +1,11 @@
 TEXMF=$(HOME)/texmf
 
 srcs=\
-  st_thomas.ly \
-  groovin_high.ly \
   confirmation.ly \
-  my_one_and_only_love.ly
+  groovin_high.ly \
+  moose_the_mooche.ly \
+  my_one_and_only_love.ly \
+  st_thomas.ly
 
 # extra trailing slash is intentional, lilypond interprets ./ as a filename
 %.pdf: %.ly

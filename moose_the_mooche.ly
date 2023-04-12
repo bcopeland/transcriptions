@@ -117,9 +117,9 @@ theNotes = \relative c' {
     d8 f8 ~ f4 r2 |
     r1 | \break
 
-    r8 a, \tuplet 3/2 { d f aes } b4 \tuplet 3/2 { aes8 f d} |
+    r8 a, \tuplet 3/2 { c e g } b4 \tuplet 3/2 { aes8 e c} |
     b'8 aes r4 r8 d, r8 aes' |
-    \tuplet 3/2 {e'16 ees d} des8 r2. |
+    \tuplet 3/2 {e'8 ees d} des4 r2 |
     r2 \tuplet 3/2 { c8 d c } bes8 a | \break
 
     g f8 e ees d bes g4 |
@@ -129,7 +129,7 @@ theNotes = \relative c' {
 
     f ees r4 r8 f8 ~ f4 |
     d4 f8 c8 ~ c4 r8 bes8 |
-    c8 a8 r4 r8 b8 \tuplet 3/2 { aes8 f d } |
+    c8 a8 r4 r8 b8 \tuplet 3/2 { aes8 e des } |
     \tuplet 3/2 { bes'8 b bes8} a8 g f ees d c |
     bes4 r4 bes'8 aes g f | \break
 
