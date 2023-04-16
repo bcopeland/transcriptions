@@ -171,7 +171,7 @@ theChords = \chordmode {
     bes1:maj7 |
     c2:m7 f:7 |
     f:m7 bes:7 |
-    ees1:m7 |
+    ees1:7 |
     bes1:maj7 |
     c2:m7 f:7 |
 
@@ -203,7 +203,7 @@ theChords = \chordmode {
     bes1:maj7 |
     c2:m7 f:7 |
     f:m7 bes:7 |
-    ees1:m7 |
+    ees1:7 |
     bes1:maj7 |
     c2:m7 f:7 |
 
