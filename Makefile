@@ -2,6 +2,7 @@ TEXMF=$(HOME)/texmf
 
 srcs=\
   confirmation.ly \
+  four.ly \
   groovin_high.ly \
   moose_the_mooche.ly \
   my_one_and_only_love.ly \
