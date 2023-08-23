@@ -1,6 +1,8 @@
 TEXMF=$(HOME)/texmf
 
 srcs=\
+  bloomdido.ly \
+  blues_for_alice.ly \
   confirmation.ly \
   four.ly \
   groovin_high.ly \
