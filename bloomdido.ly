@@ -99,7 +99,7 @@ theNotes = \relative c' {
     \tuplet 3/2 { a bes b } c a bes a g fis |
     f ees d c b aes' g f | \break
 
-    ees g, r8 ees' ~ ees c bes gis |
+    ees g, r8 ees' ~ ees c bes g |
     a4 r4 r4 \tuplet 3/2 { f'8 g bes } |
     d4 ~ \tuplet 3/2 {d8 f ees} d bes r4 |
     r2 r8 bes16 bes bes8 e ~ | \break
@@ -132,7 +132,7 @@ theNotes = \relative c' {
     f es \tuplet 3/2 { d f a } c bes a g |
     f ees d c b aes' g f | \break
 
-    ees g, r8 ees' ~ ees c bes gis |
+    ees g, r8 ees' ~ ees c bes g |
     a4 r4 f'8 g bes d ~ |
     d4 bes4 r4 f8 g |
     bes d ~ d4 bes8 c bes g | \break
