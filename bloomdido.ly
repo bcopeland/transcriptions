@@ -57,15 +57,15 @@ realBookTitle = \markup {
 theNotes = \relative c' {
   \set Staff.midiInstrument = "flute"
   \key bes \major
-    bes'8 c bes g r4 r8 g |  % g?
-    d'4 f8 c r8 f,8 r8 d' |
+    bes'8 c bes g r4 r8 bes |
+    d4 f8 c r8 f,8 r8 d' |
     bes8 c bes f ees' d bes aes ~ |
     aes8 g' r8 f c aes fis g | \break
 
     f' ees8 bes g bes4 r8 des ~ |
     des4 bes8 g c bes ges f |
     r4 r8 bes8 a4 r8 c |
-    fis8 e \tuplet 3/2 { b ges ees' ~ } ees4 r8 des8 | \break
+    fis8 e \tuplet 3/2 { b aes ees' ~ } ees4 r8 des8 | \break
 
     c8 g r8 a c bes a g |
     fis8 bes c d ees8 r8 d8 ees |
@@ -81,7 +81,7 @@ theNotes = \relative c' {
     g bes c f ees2 |
     r1 |
     r8 f8 \tuplet 3/2 { g bes d } f ees d c |
-    b d, f g aes a16 aes g8 f | \break
+    b d, f g aes bes16 aes g8 f | \break
 
     ees4 r8 ees8 ~ ees8 c bes g |
     a f'8 ~ f2 c8 f8 ~ |
@@ -91,7 +91,7 @@ theNotes = \relative c' {
 % 2nd chorus
     r8 bes, \tuplet 3/2 { d f g } bes aes g f |
     ees a, bes c des bes g f |
-    c' bes aes c d ees16 f fis8 g8 |
+    c' bes a bes \tuplet 3/2 { d ees f } fis8 g8 |
     aes c, b bes g' fis e bes | \break
 
     b c16 b aes8 fis g f' ees g, |
