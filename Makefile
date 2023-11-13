@@ -8,6 +8,7 @@ srcs=\
   groovin_high.ly \
   moose_the_mooche.ly \
   my_one_and_only_love.ly \
+  remember.ly \
   st_thomas.ly
 
 # extra trailing slash is intentional, lilypond interprets ./ as a filename
