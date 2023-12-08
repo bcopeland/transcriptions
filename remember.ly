@@ -117,7 +117,7 @@ theNotes = \relative c'' {
     r2. r8 ees'8 |
     aes8 f g bes aes ees des f |
     ees8 c b des c aes g b |
-    f4 \tuplet 3/2 {ges8 bes des} f ees aes ges | \break
+    aes8 f \tuplet 3/2 {ges8 bes des} f ees aes ges | \break
 
     f4 ~ f8 g16 f ees8 des r4 |
     des4 des r8 des4. |
@@ -127,7 +127,7 @@ theNotes = \relative c'' {
     r8 c8 \tuplet 3/2 { ees g bes } aes g f e |
     ees8 c r2. |
     r2 des'8 c f,8 g |
-    bes2 r8 bes8 aes g | \break
+    bes2 r8 a8 aes ges | \break
 
     f4. aes16 f ees8 des r4 |
     e4. g16 e d8 c r4 |
@@ -137,7 +137,7 @@ theNotes = \relative c'' {
     bes4 r4 r8 bes \tuplet 3/2 { des f aes } |
     c8 aes c4 \tuplet 3/2 { bes8 c bes } g4 |
     aes4 aes2 r4 |
-    \tuplet 3/2 {bes8 c aes~} aes2 g4 | \break
+    \tuplet 3/2 {c8 des c8} aes2 f4 | \break
     aes8 aes r2. | r1 | r1 | r1 |
 }
 
