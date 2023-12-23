@@ -3,6 +3,7 @@
 \include "jazzchords.ily"
 \include "lilyjazz.ily"
 \include "jazzextras.ily"
+\include "common.ily"
 
 \paper {
   #(set-paper-size "letter")
@@ -172,8 +173,8 @@ theChords = \chordmode {
 
 \score {
   <<
-    \new ChordNames \theChords
-    \new Voice = soloist \theNotes
+    \new ChordNames \tpose \theChords
+    \new Voice = soloist \tpose \theNotes
   >>
   \layout {
     \override Score.Clef #'break-visibility = #'#(#f #f #f)  % make only the first clef visible
