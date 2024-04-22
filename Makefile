@@ -4,6 +4,7 @@ TEXMF=$(HOME)/texmf
 # TPOSE=-e '(define-public transpose-key "bes")'
 
 srcs=\
+  billies_bounce.ly \
   bloomdido.ly \
   blues_for_alice.ly \
   confirmation.ly \
@@ -12,7 +13,9 @@ srcs=\
   moose_the_mooche.ly \
   my_one_and_only_love.ly \
   remember.ly \
-  st_thomas.ly
+  attya.ly \
+  st_thomas.ly \
+  on_the_sunny_side_of_the_street.ly
 
 # extra trailing slash is intentional, lilypond interprets ./ as a filename
 %.pdf: %.ly

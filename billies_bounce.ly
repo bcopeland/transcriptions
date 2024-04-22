@@ -103,7 +103,7 @@ theNotes = \relative c' {
     r1 | \break
 
     r4 fis16 g bes d f d dis e c cis d c |
-    bes16 a g f  e f bes des \tuplet 3/2 { c bes a } c bes a f d c |
+    bes16 a g f  e g bes des \tuplet 3/2 { c bes a } c bes a f d c |
     f4 r8 d16( ees16 d8) c8~ c4 |
     r4. c8 f a c f ~ | \break
 
