@@ -6,6 +6,7 @@ TEXMF=$(HOME)/texmf
 srcs=\
   billies_bounce.ly \
   bloomdido.ly \
+  blue_train.ly \
   blues_for_alice.ly \
   confirmation.ly \
   four.ly \
