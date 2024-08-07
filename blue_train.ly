@@ -136,12 +136,25 @@ theNotes = \relative c' {
   aes g ges f ees f aes b aes a bes8 r16 bes16 r16 bes | \break
 
   % 4th chorus
-
+  c8 c16 c c8 c16 c c8 c g'4 |
+  r16 c,16 r16 c c c r16 c16 c8 ees ges4 |
+  r4 r16 g aes e g e f ees d c g bes |
+  bes16 c des ees aes g f ees32 des ees16 bes aes bes c aes f ees |
+  bes'16 g aes bes b c f e ees \tuplet 3/2 { des ees des } b c aes g f |
+  bes16 g aes bes b c r8 r4 r8 bes'16 b |
+  c8. g16 bes8. ees,32 f aes4 g16 ees bes bes |
+  f'16 d ees f g aes g f d ees e g, bes des bes aes |
+  a aes g f e c g' e f g aes bes ees16 ees r16 g ~ |
+  g16 e f8 r2. |
 }
 
 theChords = \chordmode {
     \set chordChanges = ##t
     ees1:7 |
+
+    ees1:7 | ees1:7 | ees:7 | ees:7 |
+    aes:7 | a:dim7 | ees:7 | c:m7.9- |
+    f:m7  | bes:7 | ees2:7 c:m7.9- | f:m7 bes:7 |
 
     ees1:7 | ees1:7 | ees:7 | ees:7 |
     aes:7 | a:dim7 | ees:7 | c:m7.9- |
