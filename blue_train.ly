@@ -139,13 +139,35 @@ theNotes = \relative c' {
   c8 c16 c c8 c16 c c8 c g'4 |
   r16 c,16 r16 c c c r16 c16 c8 ees ges4 |
   r4 r16 g aes e g e f ees d c g bes |
-  bes16 c des ees aes g f ees32 des ees16 bes aes bes c aes f ees |
+  bes16 c des ees aes g f ees32 des ees16 bes aes bes c aes f ees | \break
+
   bes'16 g aes bes b c f e ees \tuplet 3/2 { des ees des } b c aes g f |
   bes16 g aes bes b c r8 r4 r8 bes'16 b |
   c8. g16 bes8. ees,32 f aes4 g16 ees bes bes |
-  f'16 d ees f g aes g f d ees e g, bes des bes aes |
+  f'16 d ees f g aes g f d ees e g, bes des bes aes | \break
+
   a aes g f e c g' e f g aes bes ees16 ees r16 g ~ |
-  g16 e f8 r2. |
+  g16 e f8 d16 cis d32 cis c b bes16 a aes c g16 f \tuplet 3/2 { f ees d } |
+  ees bes ees g e b e g f c f g aes4 |
+  r16 b c b bes a aes c g f bes ees, f g f fis | \break
+
+  % 5th chorus
+  g8. ees'16 ~ ees4 ees16 ees8. ees4 |
+  ges16 ees8. ees4 des16 ees8. ees4 |
+  r8 ees \tuplet 3/2 { ges aes a } aes ges ees des ~ |
+  \tuplet 3/2 { des16 ees des } bes8 \tuplet 3/2 { a16 bes a } aes8 ges ees ges aes | \break
+
+  aes4 ges8 ees ges16 aes8. aes4 |
+  \acciaccatura a8 bes4. ees8 a, aes f16 ges g8 ~ |
+  g8 ees bes4 r2 |
+  r8 aes'8 \tuplet 3/2 { g8 d f } \tuplet 3/2 { e8 g bes } des bes | \break
+
+  c4 f,8 g aes bes c ees |
+  d4 bes8 d c4 aes8 c |
+  bes4 bes,8 aes' \tuplet 3/2 { g16 aes g } f8 e g |
+  \tuplet 3/2 { f8 bes, ees } \tuplet 3/2 { d f aes } b bes e, d |
+  ees8 ees8 ~ ees4 r2 | \break
+
 }
 
 theChords = \chordmode {
@@ -153,23 +175,27 @@ theChords = \chordmode {
     ees1:7 |
 
     ees1:7 | ees1:7 | ees:7 | ees:7 |
-    aes:7 | a:dim7 | ees:7 | c:m7.9- |
+    aes:7 | aes:7 | ees:7 | c:m7.9- |
     f:m7  | bes:7 | ees2:7 c:m7.9- | f:m7 bes:7 |
 
     ees1:7 | ees1:7 | ees:7 | ees:7 |
-    aes:7 | a:dim7 | ees:7 | c:m7.9- |
+    aes:7 | aes:7 | ees:7 | c:m7.9- |
     f:m7  | bes:7 | ees2:7 c:m7.9- | f:m7 bes:7 |
 
     ees1:7 | ees1:7 | ees:7 | ees:7 |
-    aes:7 | a:dim7 | ees:7 | c:m7.9- |
+    aes:7 | aes:7 | ees:7 | c:m7.9- |
     f:m7  | bes:7 | ees2:7 c:m7.9- | f:m7 bes:7 |
 
     ees1:7 | ees1:7 | ees:7 | ees:7 |
-    aes:7 | a:dim7 | ees:7 | c:m7.9- |
+    aes:7 | aes:7 | ees:7 | c:m7.9- |
     f:m7  | bes:7 | ees2:7 c:m7.9- | f:m7 bes:7 |
 
     ees1:7 | ees1:7 | ees:7 | ees:7 |
-    aes:7 | a:dim7 | ees:7 | c:m7.9- |
+    aes:7 | aes:7 | ees:7 | c:m7.9- |
+    f:m7  | bes:7 | ees2:7 c:m7.9- | f:m7 bes:7 |
+
+    ees1:7 | ees1:7 | ees:7 | ees:7 |
+    aes:7 | aes:7 | ees:7 | c:m7.9- |
     f:m7  | bes:7 | ees2:7 c:m7.9- | f:m7 bes:7 |
 }
 
