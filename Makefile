@@ -15,6 +15,7 @@ srcs=\
   my_one_and_only_love.ly \
   remember.ly \
   attya.ly \
+  scrapple_from_the_apple.ly \
   st_thomas.ly \
   on_green_dolphin_street.ly \
   on_the_sunny_side_of_the_street.ly
