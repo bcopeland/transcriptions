@@ -78,10 +78,10 @@ theNotes = \relative c' {
   r2 fis'16 g fis e d8 cis |
   b a g fis e d cis e |
   g b ~ b g a e ~ e4 |
-  r4 r8 d16 cis c16 bes a g fis4 | \break
+  r4 r8 d16 des c16 b a g fis4 | \break
 
   r4 r8 cis'16 d \tuplet 6/4 {e g a b cis d} e cis d e |
-  g4 e8 a, r8 fis g16 a c e |
+  g4 e8 a, r8 fis \tuplet 3/2 {g8 bes d} |
   f8 \tuplet 3/2 {e16 d c} bes8 a g f \tuplet 3/2 {e g bes} |
   d4 g,8 a c bes r4 | \break
 
@@ -92,34 +92,49 @@ theNotes = \relative c' {
   c8 a \tuplet 3/2 {g f g} r4 r8 f' |
   d4 r8 e r8 d \tuplet 3/2 {a bes b} |
   c4 r8 a8 bes a gis a |
-  f8 c e f r2
+  f8 c e f r2 | \break
 
   \section
   \sectionLabel "solo"
-  r4 g16 a bes d f8 ees e c' ~ |
-  c4 bes16 f d c a'4 r4 |
-  r4 r8 f g16 a g f e8 d |
+  r4 fis,16 g bes d f8 d e c' ~ |
+  c4 bes16 f d bes a'4 r4 |
+  r4 r8 f \tuplet 3/2 {g16 a g} f8 e8 d |
   f8 des bes g aes e' d des | \break
 
-  c bes \tuplet 3/2 {c e g} d' des c b |
+  c bes \tuplet 3/2 {d f a} d des c b |
   bes8 f g aes ~ aes4\mordent aes4 |
   r2 r8 f g aes ~ |
   aes4\mordent aes4 r2 | \break
 
-  r2 r8 ges8 \tuplet 3/2 { g bes d } |
-  f e16 c bes8 a g f e g |
-  des'16 ees c8 ~ c bes16 c a8 g16 a f4 |
+  r2 r8 fis8 \tuplet 3/2 { g bes d } |
+  f \tuplet 3/2 { e16 d c} bes8 a g f \tuplet 3/2 {e g bes} |
+  des16 ees c8 ~ c bes16 c a8 g16 a f4 |
   r2 r8 e16 f g f e d | \break
 
   c4 r4 r8 a8 ~ a8 c |
-  g a bes d gis, a d b |
+  g a bes d gis, b d b |
   c bes a16 c e g f8 c ~ c4 |
   r1 | \break
 
-  r4 d4 cis8 d fis a |
+  r4 d8 c cis8 e g a |
   b8 g e cis fis f e ees |
-  d8 cis c16 e g a b8 gis a d ~ |
+  d8 cis c16 d e g b8 g a d ~ |
   d4 r2. | \break
+
+  r2 r8 d,16 e f g a c |
+  e cis d e g4 ~ g8 f f \tuplet 3/2 { e16 d c } |
+  bes8 a g f \tuplet 3/2 { e g bes} d g, |
+  a c \tuplet 3/2 { bes16 c bes } a8 g f e d | \break
+
+  c'4 r4 a8 f g bes, ~ |
+  bes4 r2. |
+  r4 r8 des'16 c b4 fis8 bes |
+  \tuplet 3/2 { aes16 bes aes } fis8 ees e g f e d | \break
+
+  c4 r8 bes a16 c e g f8 cis |
+  \tuplet 3/2 { d f a } c bes ~ bes4 cis,8 bes |
+  c bes' g8 gis a f d des |
+  c bes a8 g fis16 a c d ees d8. |
 }
 
 theChords = \chordmode {
