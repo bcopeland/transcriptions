@@ -62,27 +62,27 @@ theNotes = \relative c'' {
   \section
   \sectionLabel "solo"
   r2 r4 r8 a8 |
-  g8 a d c b g e ees |
-  d c b16 d fis g a4 r8 bes ~ |
+  fis8 a d c b g e ees |
+  d c \tuplet 3/2 { b d fis }  a4 r8 bes ~ |
   bes8 c16 bes a8 g c g r4 |
   r1 | \break
 
   f4 c a'8 bes a g |
-  f d c bes a c d f16 aes ~ |
+  f d c bes a c d aes' ~ |
   aes4 ees8 c g' f ~ f4 |
   r1 | \break
 
-  r8 d e16 g bes d f4 ees8 d~
+  r8 d \tuplet 3/2 { e g bes } f'4 ees8 d~
   d4  c16 d c bes a8 g fis a |
   e8 bes c ees d bes g a |
-  c a r8 a' bes f ees d | \break
+  c a r8 a' bes fis ees d | \break
 
   a'8 fis r2. |
-  r4 a8 fis g des' ~ des4 |
+  r4 a8 fis aes des ~ des4 |
   c8 g e d b' bes a aes |
-  g8 e c16 a fis'8 ~ fis d16 b aes8 fis' ~ | \break
+  g8 e c16 a g'8 ~ g ees16 b aes8 fis' ~ | \break
 
-  fis8 e4 e4 fis4 e16 d |
+  fis8 e4 e8 ~ e8 fis4 e16 d |
   b16 g e'8 ~ e4 r4 r8 f8 ~ |
   f d16 bes a g e'8 ~ e f ~ f8 d16 bes |
   a16 g e'8 ~ e4 r2 | \break
@@ -90,17 +90,17 @@ theNotes = \relative c'' {
   r8 e \tuplet 3/2 { f a c } e ees d des |
   c a bes c16 bes a8 f d c |
   c'4 g8 aes ~ aes4 r4 |
-  r4. ees8 a bes ees des ~ | \break
+  r4. ees8 g bes ees d ~ | \break
 
-  des4 bes8 c bes aes g4 |
-  r8 bes a \tuplet 3/2 { bes16 aes g } fes8 a e4 |
-  c8 ees d c bes4 r4 |
+  d bes8 c bes aes g8 ~ g4 |
+  r8 bes \tuplet 3/2 { a16 bes a } g8 fis8 a e a, |
+  c8 ees d c b4 r4 |
   r2 r4 r8 e'8 | \break
 
-  f a, g gis e' ees d16 des16 c8 ~ |
-  c8 g \tuplet 3/2 {e c ees ~ } ees r4 ees'16 d |
-  c8 bes aes b, d f e ees |
-  d b \tuplet 3/2 {d e g} b4 d8 e, ~ | \break
+  f a, g gis e' ees d des |
+  c8 g \tuplet 3/2 {e c ees ~ } ees r4 d'16 c |
+  bes8 a aes c, d f e ees |
+  d b \tuplet 3/2 {c e g} b4 d8 e, ~ | \break
   e4 r2. | r1 | r1 | r1 |
 
 }
@@ -111,13 +111,13 @@ theChords = \chordmode {
     g1:maj7 |
 
     g1:maj7 | g1:maj7 | g1:m7 | c1:7 |
-    f1:maj7 | f1:maj7 | f1:7 | bes:7 |
+    f1:maj7 | f1:maj7 | f1:m7 | bes:7 |
     ees:7 | a2:m7.5- d2:7 | g1:m7 | d1:7 |
     b:m7  | e:7 | b2:m7 bes2:m7 | a2:m7 d2:7 | \break
 
     g1:maj7 | g1:maj7 | g1:m7 | c1:7 |
-    f1:maj7 | f1:maj7 | f1:7 | bes:7 |
-    ees:7 | a2:m7 d2:7 | g1:7 | d1:7 |
+    f1:maj7 | f1:maj7 | f1:m7 | bes:7 |
+    ees:7 | a2:m7 d2:7 | g1:7 | c2:m7 f2:7 |
     b2:m7 e:7 | a2:m7 d:7 | g1:7 | a2:m7 d2:7 | \break
 
     g1:maj7 | r1 | r1 | r1 |
