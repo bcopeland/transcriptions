@@ -14,7 +14,7 @@ srcs=\
   moose_the_mooche.ly \
   my_one_and_only_love.ly \
   remember.ly \
-  attya.ly \
+  all_the_things_you_are.ly \
   scrapple_from_the_apple.ly \
   st_thomas.ly \
   on_green_dolphin_street.ly \
