@@ -126,7 +126,7 @@ theNotes = \relative c'' {
   b8 r8 r4 ees,16 f16 g8 r4 |
   r2 bes8 aes g f | \break
 
-  ees d c bes aes bes c ees |
+  ees des c bes aes bes c ees |
   c des d des c d e fis |
   g d b g e' c a fis |
   g4 fis8 g b d ~ d b | \break
