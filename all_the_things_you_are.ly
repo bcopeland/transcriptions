@@ -22,7 +22,7 @@
 
 title = #"All the Things You are"
 composer = #"Hank Mobley Solo"
-meter = #" 200"
+meter = #" 192"
 
 % from Johnny Griffin - A blowing session
 
