@@ -22,7 +22,7 @@
 
 title = #"Someday My Prince Will Come"
 composer = #"Wynton Kelly Solo"
-meter = #" 130"
+meter = #" 100"
 
 realBookTitle = \markup {
   \score {
@@ -92,9 +92,9 @@ theNotes = \relative c'' {
   d2. |
   c16 d c bes a c fis, e f d ees c | \break
 
-  d4 r4 r8 f | 
-  e f fis4 c'8 bes |
-  a g e4 r8 c |
+  d4 r4 r8 f |
+  e f fis4 c'8 b |
+  bes g ees4 r8 c |
   cis4 ees4 \grace g16 g8 fis | \break
 
   f ees c cis d f, ~ |
@@ -111,7 +111,7 @@ theNotes = \relative c'' {
   <c c,> <g g,> <c c,> <g g, > <ees' ees,> <c c,> |
   <g' g,> <ees ees,> <g g,> <ees ees,> \tuplet 3/2 { <f f,>4 <ees ees,>8 ~ |
   <ees ees,> <d d,> c } g4
-  
+
   \ottava 0
 }
 
