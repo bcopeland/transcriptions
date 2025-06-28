@@ -22,7 +22,7 @@
 
 title = #"Someday My Prince Will Come"
 composer = #"Wynton Kelly Solo"
-meter = #" 100"
+meter = #" 160"
 
 realBookTitle = \markup {
   \score {
@@ -95,7 +95,7 @@ theNotes = \relative c'' {
   d4 r4 r8 f |
   e f fis4 c'8 b |
   bes g ees4 r8 c |
-  cis4 ees4 \grace g16 g8 fis | \break
+  cis4 e4 \grace g16 g8 fis | \break
 
   f ees c cis d f, ~ |
   f4 g8 aes bes b |
@@ -110,9 +110,22 @@ theNotes = \relative c'' {
 
   <c c,> <g g,> <c c,> <g g, > <ees' ees,> <c c,> |
   <g' g,> <ees ees,> <g g,> <ees ees,> \tuplet 3/2 { <f f,>4 <ees ees,>8 ~ |
-  <ees ees,> <d d,> c } g4
 
-  \ottava 0
+  <ees ees,> <d d,> \ottava 0 c, } g8 ees d c |
+
+  b g a \tuplet 3/2 { a16 aes g ~ } g8 ges | \break
+
+  f ees \tuplet 3/2 {c cis d} \tuplet 3/2 {f bes d} |
+  e4 r2 |
+  r4 c'16 d c bes g bes g ees |
+  d8 c cis <cis b> aes g | \break
+
+  \tuplet 3/2 {fis16 g fis} e8 f d c bes ~ |
+  bes8 bes c d ees e ~ |
+  e8 f4 ees4 f8 |
+  d4. c4. |
+  c2. |
+
 }
 
 theChords = \chordmode {
@@ -121,7 +134,7 @@ theChords = \chordmode {
 
     bes2.:maj7 |
     d:7 |
-    ees:maj7 | 
+    ees:maj7 |
     g:7 | \break
 
     c:m7 |
@@ -129,19 +142,19 @@ theChords = \chordmode {
     c:7 |
     f:7 | \break
 
-    d:m7 | 
-    des:dim7 | 
-    c:m7 | 
+    d:m7 |
+    des:dim7 |
+    c:m7 |
     f:7 | \break
 
-    d:m7 | 
-    des:dim7 | 
-    c:m7 | 
+    d:m7 |
+    des:dim7 |
+    c:m7 |
     f:7 | \break
 
     bes2.:maj7 |
     d:7 |
-    ees:maj7 | 
+    ees:maj7 |
     g:7 | \break
 
     c:m7 |
@@ -149,19 +162,19 @@ theChords = \chordmode {
     c:7 |
     f:7 | \break
 
-    f:m7 | 
-    bes:7 | 
-    ees:maj7 | 
+    f:m7 |
+    bes:7 |
+    ees:maj7 |
     e:dim7 | \break
 
-    bes:maj7 | 
-    c:m7 | 
-    bes:maj7 | 
+    bes:maj7 |
+    c:m7 |
+    bes:maj7 |
     f:7 | \break
 
     bes2.:maj7 |
     d:7 |
-    ees:maj7 | 
+    ees:maj7 |
     g:7 | \break
 
     c:m7 |
@@ -169,15 +182,15 @@ theChords = \chordmode {
     c:7 |
     f:7 | \break
 
-    d:m7 | 
-    des:dim7 | 
-    c:m7 | 
+    d:m7 |
+    des:dim7 |
+    c:m7 |
     f:7 | \break
 
-    d:m7 | 
-    des:dim7 | 
-    c:m7 | 
-    f:7 | \break
+    d:m7 |
+    des:dim7 |
+    c:m7 |
+    f:7 | bes:maj7 | \break
 }
 
 \score {
@@ -191,6 +204,6 @@ theChords = \chordmode {
     \override Score.SystemStartBar. #'collapse-height = #1  % allow single-staff system bars
   }
   \midi {
-    \tempo 4 = 200
+    \tempo 4 = 160
   }
 }
