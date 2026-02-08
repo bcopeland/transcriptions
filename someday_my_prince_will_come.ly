@@ -88,7 +88,7 @@ theNotes = \relative c'' {
   r4 g8 aes g d | \break
 
   f16 g f d ees8 g \tuplet 3/2 { c4 d8 ~ |
-  d8 ees4 } \tuplet 3/2 {g bes8. b16 ees4 } |
+  d8 ees4 } \tuplet 3/2 {g bes8 b ees4 } |
   d2. |
   c16 d c bes a c fis, e f d ees c | \break
 
