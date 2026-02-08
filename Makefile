@@ -15,6 +15,7 @@ srcs=\
   my_one_and_only_love.ly \
   remember.ly \
   all_the_things_you_are.ly \
+  satin_doll.ly \
   scrapple_from_the_apple.ly \
   st_thomas.ly \
   on_green_dolphin_street.ly \
