@@ -74,7 +74,7 @@ theNotes = \relative c'' {
   f'8 fis16 g a8 e r4. a,8 | \break
 
   c d e d c a r4 |
-  r4 bes8 des ees des bes aes | \break
+  r4 b8 des ees des b aes | \break
   g8 d'16 b c8 a'16 fis g8 d'16 b c8 a'16 fis |
 
   g e f \tuplet 3/2 {g32 f e ~} e16 d16 b c cis16 e16 ais, gis a dis, e g | \break
@@ -96,7 +96,7 @@ theNotes = \relative c'' {
   g f e f a c e d \glissando c bes g gis a e g e | \break
 
   ges4 r4 r8 b8 d des |
-  c a, \tuplet 3/2 { c e g } <c, fis b> <e a d> <c f bes> <b c f>8 ~ |
+  c a, \tuplet 3/2 { c e g } <c, fis b> <f a d> <d f bes> <b c f>8 ~ |
   <b c f>4 g'8 f e d c a |
   g g' \tuplet 3/2 { e cis a } f' g dis e | \break
 
@@ -108,7 +108,7 @@ theNotes = \relative c'' {
   <d, fis c' e>4 a'8 c e a e c |
   \tuplet 3/2 { g'16 a g } e8 \tuplet 3/2 { f a c } e f ees e |
   c g f ees e g a b |
-  d c g e \tuplet 3/2 { b16 c b } a8 g ges |
+  d c g e \tuplet 3/2 { b'16 c b } a8 g ges |
   f a c e g g r4 |
 }
 
