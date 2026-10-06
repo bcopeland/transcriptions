@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.24.0"
 #(set-global-staff-size 18)
 \include "jazzchords.ily"
 \include "lilyjazz.ily"
@@ -58,24 +58,27 @@ realBookTitle = \markup {
 theNotes = \relative c' {
   \set Staff.midiInstrument = "flute"
   \key f \major
-
+  \sectionLabel "Theme"
     % head
-    r2 r4 r8 c8 |
+    \partial 8 c8 |
+
     b c f aes a f d f ~ |
     f8 d f4 r8 f ~ f8 d |
-    f4 r8 f8 ~ f8 d f4 | \break
+    f4 r8 f8 ~ f8 d f4 |
+    aes8 a f d f g f8 f | \break
 
-    aes8 a f d f g f8 f |
     r4 r8 a bes f r8 aes |
     r8 bes r4 ees8 c f ees ~ |
-    ees8 f c4 r4 r8 e8 ~ | \break
+    ees8 f c4 r4 r8 e8 ~ |
+    e4 g,8 e fis ees' c cis | \break
 
-    e4 g,8 e fis ees' c cis |
     d4 r8 g fis d bes g |
     f'4 r8 f e e d d |
-    c4 r8 f,8 ~ f8 d f4 | \break
-    r8 f8 ~ f8 d f4 r8 c8 |
+    c4 r8 f,8 ~ f8 d f4 |
+    r8 f8 ~ f8 d f4 r8 c8 \break
 
+  \section
+  \sectionLabel "Chorus"
     % 1st chorus
     f4 g8 gis a4 bes8 b |
     c4 \tuplet 3/2 { bes8 c bes } a f d c |
@@ -126,7 +129,7 @@ theNotes = \relative c' {
 
 theChords = \chordmode {
     \set chordChanges = ##t
-    f1:7 |
+    \partial 8 s8 |
 
     f1:7 | bes1:7 | f1:7 | f1:7 |
     bes1:7 | bes1:7 | f1:7 | a2:m7 d2:7 |
