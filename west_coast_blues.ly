@@ -68,12 +68,12 @@ theNotes = \relative c' {
   r4 r8 ees, ges aes |
   bes c d ees f4 | \break
 
-  r8 f, \tuplet 3/2 { des' d f } des16 d des bes |
-  c8 bes f ees \appoggiatura des16 d4 |
-  bes4. b8 des d ~ |
-  d e f aes c des | \break
+  r8 f, \tuplet 3/2 { cis' d f } cis16 d cis bes |
+  c8 bes f ees \appoggiatura cis16 d4 |
+  bes4. b8 cis d ~ |
+  d e f aes c cis | \break
 
-  c16 des b a bes8 g aes16 bes des f ~ |
+  c16 cis b a bes8 g aes16 bes cis f ~ |
   f2. |
   r2. | r2.| \break
 
