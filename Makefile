@@ -21,7 +21,8 @@ srcs=\
   on_green_dolphin_street.ly \
   on_the_sunny_side_of_the_street.ly \
   ornithology.ly \
-  someday_my_prince_will_come.ly
+  someday_my_prince_will_come.ly \
+  west_coast_blues.ly
 
 # extra trailing slash is intentional, lilypond interprets ./ as a filename
 %.pdf: %.ly
